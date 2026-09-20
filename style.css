@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boarder-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,7 +10,7 @@ body{
 }
 
 .profile-section{
-    min-height:100px;
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -25,6 +25,7 @@ body{
     height: 150px;
     border-radius: 100%;
     margin-bottom:25px;
+
 
 }
 
@@ -60,4 +61,48 @@ body{
 
 .learn-more:hover {
     background-color:pink;
+}
+
+.about-section{
+    width:100%;
+    min-height:100vh;
+    padding:50px 30px;
+    text-align:left;
+    background-color:rgb(86, 86, 86);
+    color:white;
+}
+
+.about-content{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.about-section h2{
+    font-size: 28px;
+    color: PINK;
+    margin-bottom:20px;
+}
+.about-section p {
+     font-size: 18px; 
+     line-height: 1.6; 
+     margin-bottom: 20px;
+ } 
+.bio{
+    font-style:italic;
+}
+
+
+.about-section h3 { 
+    font-size: 22px;
+    color:pink;
+     margin-top: 35px;
+     margin-bottom: 30px; 
+}
+ .about-section ul { 
+    padding-left: 25px;
+    margin-bottom: 20px; 
+} 
+.about-section li{ 
+    font-size: 18px;
+    margin-bottom: 8px;
 }
