@@ -345,3 +345,86 @@ body{
         font-size: 14px;
     }
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 70px;
+    padding: 0 40px;
+    background-color: black;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-links a {
+    display: block;
+    padding: 8px 14px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: pink;
+    color: black;
+}
+
+.contact-section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: grey;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    color: pink;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+        height: auto;
+        padding: 12px 16px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .nav-links a {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}
