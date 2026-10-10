@@ -75,7 +75,9 @@ body{
     max-width:800px;
     margin:0 auto;
 }
-
+.about-me{
+     text-align:center;
+}
 .about-section h2{
     font-size: 28px;
     color: PINK;
@@ -96,6 +98,10 @@ body{
     color:pink;
      margin-top: 35px;
      margin-bottom: 30px; 
+}
+.background{
+    text-align: justify;                                                                                                           
+
 }
  .about-section ul { 
     padding-left: 25px;
@@ -140,9 +146,113 @@ body{
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
 
 .skill-card h3 {
     font-size: 22px;
     color: pink;
-    margin-bottom: 10px;
+    text-align:center;
+}
+
+
+.projects-section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 30px;
+    text-align: center;
+    background-color:grey
+}
+
+.projects-content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.projects-section h2 {
+    font-size: 28px;
+    color: pink;
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.project-card {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-align:justify;
+}
+
+.project-image {
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    align-self: center;
+    padding: 10px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.project-name {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.project-description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.project-tech {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tech li {
+    background-color: pink;
+    color: black;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.project-link {
+    margin-top: auto;
+    align-self: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-link:hover {
+    background-color: pink;
+    color: black;
 }
