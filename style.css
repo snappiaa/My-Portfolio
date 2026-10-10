@@ -498,3 +498,142 @@ section {
         font-size: 14px;
     }
 }
+
+
+/*Responsive Design*/
+
+img {
+    max-width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .skills-container {
+        gap: 40px;
+    }
+
+    .projects-container {
+        gap: 30px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 370px;
+    }
+}
+
+/* Tablet and phone */
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 90px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .nav-links a {
+        white-space: nowrap;
+    }
+
+    .profile-section {
+        padding: 30px 16px;
+    }
+
+    .profile-name {
+        font-size: 26px;
+    }
+
+    .introduction {
+        font-size: 17px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+
+    .about-section,
+    .skills-section,
+    .projects-section,
+    .contact-section {
+        padding: 40px 16px;
+    }
+
+    .about-section h2,
+    .skills-section h2,
+    .projects-section h2,
+    .contact-section h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .about-section p,
+    .about-section li {
+        font-size: 16px;
+    }
+
+    .about-section h3 {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .skills-container {
+        gap: 20px;
+    }
+
+    .skill-card {
+        width: 45%;
+        max-width: 300px;
+    }
+
+    .education-table td:first-child {
+        white-space: nowrap;
+    }
+
+    .contact-form {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    section {
+        scroll-margin-top: 125px;
+    }
+
+    .nav-logo {
+        font-size: 18px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-name {
+        font-size: 22px;
+    }
+
+    .introduction {
+        font-size: 16px;
+    }
+
+    .about-section .background {
+        text-align: left;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+    .project-image {
+        height: 150px;
+    }
+
+    .send-button {
+        width: 100%;
+    }
+}
