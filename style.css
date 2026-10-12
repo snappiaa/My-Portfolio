@@ -500,6 +500,18 @@ section {
 }
 
 
+.footer {
+    width: 100%;
+    padding: 20px 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-copy {
+    font-size: 13px;
+    color: #aaa;
+}
+
 /*Responsive Design*/
 
 img {
